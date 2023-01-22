@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #09090a;
+  color: white;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 48px;
+
+  position: fixed;
+  width: 100%;
+}
+
+button {
+  padding: 16px 24px;
+  border-radius: 8px;
+  border: 1px solid #8b5cf6;
+  background-color: transparent;
+  color: #fff;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 125%;
+
+  cursor: pointer;
+}
+
+#form-habits {
+  display: flex;
+  padding: 182px 48px 48px;
+  width: fit-content;
+}
+
+.habits {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 56px;
+}
+
+.habit {
+    width: 64px;
+    height: 64px;
+    font-size: 32px; /* font-size pois os emojis são texto */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.days {
+  display: flex;
+  margin-left: 32px;
+  gap: 48px;
+}
+
+.day {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.day div {
+  margin-bottom: 8px;
+  text-align: center;
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 125%;
+  color: #A1A1AA;
+}
+
+input {
+  appearance: none; 
+  -webkit-appearance: none;
+  /* Por conta do input ser checkbox, faz-se necessário a utlização do appearance para mexer nas propriedades dele */
+  width: 64px;
+  height: 64px;
+  border: 2px solid #27272a;
+  border-radius: 8px;
+  background: #18181b;
+}
+
+/* pseudo-selector */
+input:checked {
+  background: #8b5cf6;
+  border: 2px solid #a78bfa;
+}
+
+/* Tira o texto 'Registrar meu dia' do botão  */
+@media (max-width: 570px) {
+  button div {
+    display: none;
+  }
+}
+
+/* ------------ ÁREA DE ANIMAÇÃO DOS QUADRADINHOS ------------- */
+.animated-rect-1 {
+  animation: appear 0.1s ease-in-out;
+  animation-delay: 0s;
+}
+
+.animated-rect-2 {
+  animation: appear 0.1s ease-in-out;
+  animation-delay: 0.1s;
+}
+
+.animated-rect-3 {
+  animation: appear 0.1s ease-in-out;
+  animation-delay: 0.2s;
+}
+
+.animated-rect-4 {
+  animation: appear 0.1s ease-in-out;
+  animation-delay: 0.3s;
+}
+
+.animated-rect-5 {
+  animation: appear 0.1s ease-in-out;
+  animation-delay: 0.4s;
+}
+
+.animated-rect-6 {
+  animation: appear 0.1s ease-in-out;
+  animation-delay: 0.5s;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+/* ------------------------------------------------------------- */
