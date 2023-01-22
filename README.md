@@ -7,8 +7,8 @@ NLW é um evento exclusivo e gratuito, promovido pela Rocketseat para ensino de 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
+  <a href="#-o-que-aprendi">O que aprendi</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-contato">Licença</a>
 </p>
 
 <p align="center">
@@ -36,14 +36,18 @@ O Habits é um app para ajudar a rastrear os hábitos.
 
 - [Visite o projeto online](https://ghenriquev.github.io/NLWSetup)
 
-## 🔖 Layout
+# 👨‍🎓 O que aprendi
 
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1195327109778210238). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+- Configurar a aparência do VScode
+- Trabalhar com as informações do Figma
+- Como refatorar as informações no JavaScript
+- Trabalhar com Local Storage no JavaScript
 
-## :memo: Licença
+## Layout
 
-Esse projeto está sob a licença MIT.
+Você pode visualizar o layout do projeto através  [DESSE LINK](https://www.figma.com/file/sJHeltZVd3D16MDS3iMmbk/Habits-(e)-(Community)?node-id=6%3A910&t=2EPD1cDyJHR9EQ5g-0). É necessário ter conta no Figma para acessá-lo.
 
----
-
-Feito com ♥ by Gabriel :wave:
+# 📧 Contato
+<a href = "mailto:gabriel.emv@hotmail.com"><img src="https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" target="_blank">
+<a href="https://www.linkedin.com/in/ghenriquev" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+</div>
